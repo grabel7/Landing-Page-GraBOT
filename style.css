@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(177,18,58);
+    background: linear-gradient(171deg, rgba(177,18,58,1) 0%, rgba(207,41,41,1) 100%);}
+
+.cab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cab-imagem {
+    height: 52px;
+}
+
+.cab-menu {
+    display: flex;
+    gap: 32px;
+}
+.cab-menu-it{
+    font-family: 'Labrada', serif;
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cont{
+    border-top: 0.25px solid #f59d88;
+    margin-bottom: 56px;
+}
+.cont-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cont-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+.cont-principal-escrito-tit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    
+}
+.cont-principal-escrito-subtit {
+    font-family: 'Labrada', serif;
+    color:white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cont-principal-botao {
+    background-color: aliceblue;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 20px;
+    font-family: 'Labrada', serif;
+    color:black;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.cont-principal-botao:hover {
+    background-color: gray;
+    
+}
+.cont-principal-img {
+    border-radius: 40px;
+    height: 430px;
+    
+}
+.cont-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.cont-sec-tit {
+    border-top: 0.4px solid white;
+    padding-top: 22px;
+    font-family: 'Labrada', serif;
+    color:white;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.cont-sec-p {
+    font-family: 'Labrada', serif;
+    color:white;
+    font-weight: 300;
+    font-size: 18px;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid white;
+}
+.rodape-copy{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
